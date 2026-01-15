@@ -10,16 +10,16 @@
   <header class="dashboard-header">
     <h1>Memecoin Launchpad Factory</h1>
     <nav>
-      <button 
-        class="nav-btn" 
-        class:currentView === 'form'
+      <button
+        class="nav-btn"
+        class:active={currentView === 'form'}
         on:click={() => currentView = 'form'}
       >
         New Project
       </button>
-      <button 
-        class="nav-btn" 
-        class:currentView === 'list'
+      <button
+        class="nav-btn"
+        class:active={currentView === 'list'}
         on:click={() => currentView = 'list'}
       >
         Projects

@@ -84,7 +84,7 @@
   {:else}
     <div class="projects-grid">
       {#each projects as project}
-        <div class="project-card" class:deploying === project.id>
+        <div class="project-card" class:deploying={deploying === project.id}>
           <div class="project-header">
             <h3>{project.name}</h3>
             <span class="ticker">${project.ticker}</span>

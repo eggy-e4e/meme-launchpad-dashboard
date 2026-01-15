@@ -49,7 +49,7 @@
     <div class="error">{error}</div>
   {/if}
   
-  <div class="upload-area" class:uploading>
+  <div class="upload-area" class:uploading={uploading}>
     <input 
       type="file" 
       accept="image/*" 

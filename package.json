@@ -1,0 +1,21 @@
+{
+  "name": "meme-launchpad-dashboard",
+  "version": "1.0.0",
+  "description": "Admin dashboard for Memecoin Launchpad Factory",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite dev",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-node": "^2.0.3",
+    "@sveltejs/kit": "^2.0.0",
+    "svelte": "^5.0.0",
+    "svelte-check": "^4.0.0",
+    "typescript": "^5.3.2",
+    "vite": "^6.0.0"
+  },
+  "type": "module"
+}
